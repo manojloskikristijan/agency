@@ -1,0 +1,48 @@
+.parallax-content {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.parallax-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.parallax-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #93b1a6;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #5c8374;
+}
+
+.non-parallax-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.non-parallax-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.non-parallax-content p {
+  font-size: 1.1rem;
+  color: #ddd;
+}
